@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import static org.junit.Assert.*;
 
@@ -10,9 +10,9 @@ import persistence.Reader;
 public class SalesManagerTest {
 
 	private SalesManager salesmanager;
-	private String test = "003ç10ç[1-10-100,2-30-2.50,3-40-3.10]çDiego";
-	private String test2 = "003ç08ç[1-1-10,2-0-1.50,3-0-0.10]çRenato";
-	private String test3 = "002ç2345675433444345çEduardo PereiraçRural";
+	private String test = "003ï¿½10ï¿½[1-10-100,2-30-2.50,3-40-3.10]ï¿½Diego";
+	private String test2 = "003ï¿½08ï¿½[1-1-10,2-0-1.50,3-0-0.10]ï¿½Renato";
+	private String test3 = "002ï¿½2345675433444345ï¿½Eduardo Pereiraï¿½Rural";
 
 	@Before
 	public void setup() {
